@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cd24f28c-7394-43ab-a89c-22364dbd1941}">
+		<property name="assetPath">
+			<value>DripLoop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>146</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a4a73083-c1be-44b6-945b-e89fc815ca99}</destination>
+		</relationship>
+	</object>
+</objects>
