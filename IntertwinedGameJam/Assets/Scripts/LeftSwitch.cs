@@ -17,6 +17,10 @@ public class LeftSwitch : MonoBehaviour
 
     public GameObject GateTR;
 
+    public GameObject BOL;
+
+    public GameObject BOR;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +40,8 @@ public class LeftSwitch : MonoBehaviour
                 GateTL.SetActive (!GateTL.activeInHierarchy);
                 GateBR.SetActive (!GateBR.activeInHierarchy);
                 GateTR.SetActive (!GateTR.activeInHierarchy);
+                BOR.SetActive (!BOR.activeInHierarchy);
+                BOL.SetActive (!BOL.activeInHierarchy);
                 
             }
         }
