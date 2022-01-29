@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,6 +16,15 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        restart();
+    }
+
+    void restart()
+    {
+        if(Input.GetKeyDown("space"))
+        {
+            SceneManager.LoadScene("Level1");
+        }
     }
 
     private void FixedUpdate() 
